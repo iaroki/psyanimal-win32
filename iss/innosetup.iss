@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "psyanimal"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.1"
 #define MyAppPublisher "Maxim Sytnyk"
 #define MyAppExeName "psyanimal.exe"
 
@@ -19,8 +19,10 @@ DefaultDirName={userappdata}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=C:\Users\IEUser\Desktop
-OutputBaseFilename=psyanimal-1.0-setup
-SetupIconFile=C:\Users\IEUser\Desktop\psyanimal\unicorn.ico
+OutputBaseFilename=psyanimal-1.1-setup
+SetupIconFile=C:\Users\IEUser\Desktop\psyanimal-win32\src\unicorn.ico
+WizardImageFile=C:\Users\IEUser\Desktop\psyanimal-win32\src\unicorn.bmp
+WizardSmallImageFile=C:\Users\IEUser\Desktop\psyanimal-win32\src\unicorn.bmp
 Compression=lzma
 SolidCompression=yes
 
@@ -33,8 +35,8 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: checkedonce
 
 [Files]
-Source: "C:\Users\IEUser\Desktop\psyanimal\build\psyanimal\psyanimal.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\IEUser\Desktop\psyanimal\build\psyanimal\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\IEUser\Desktop\psyanimal-win32\src\build\psyanimal\psyanimal.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\IEUser\Desktop\psyanimal-win32\src\build\psyanimal\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
