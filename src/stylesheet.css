@@ -1,0 +1,17 @@
+body {
+    background-color: #558000;
+    background-image: url("unicorn.ico");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+h1 {
+    color: lightgrey;
+    text-shadow: 2px 2px #000000;
+    margin-left: 20px;
+}
+
+h3 {
+    color: lightgrey;
+    text-shadow: 2px 2px #000000;
+}

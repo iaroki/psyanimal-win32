@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "psyanimal"
-#define MyAppVersion "1.1"
+#define MyAppVersion "1.2"
 #define MyAppPublisher "Maxim Sytnyk"
 #define MyAppExeName "psyanimal.exe"
 
@@ -19,7 +19,7 @@ DefaultDirName={userappdata}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=C:\Users\IEUser\Desktop
-OutputBaseFilename=psyanimal-1.1-setup
+OutputBaseFilename=psyanimal-1.2-setup
 SetupIconFile=C:\Users\IEUser\Desktop\psyanimal-win32\src\unicorn.ico
 WizardImageFile=C:\Users\IEUser\Desktop\psyanimal-win32\src\unicorn.bmp
 WizardSmallImageFile=C:\Users\IEUser\Desktop\psyanimal-win32\src\unicorn.bmp
